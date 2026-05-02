@@ -1,0 +1,109 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+}
+
+/* Full screen */
+.header {
+  height: 100vh;
+  position: relative;
+}
+
+/* Top right button */
+.nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: white;
+}
+
+/* Center content */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* Text style */
+h1 {
+  margin: 10px 0 5px;
+}
+
+p {
+  color: #94a3b8;
+}
+.navbar {
+  display: none;  /* 🔥 important */
+}
+.section {
+  height: 100vh;
+  padding: 50px;
+  background: #0f172a;
+  color: white;
+
+  scroll-margin-top: 60px; /* 🔥 important fix */
+}
+
+.section {
+  height: 100vh;
+  padding: 50px;
+  background: #0f172a;
+  color: white;
+
+  scroll-margin-top: 60px; /* 🔥 important fix */
+}
+.navbar {
+  height: 50px;
+  display: none;
+  background: black;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.section {
+  min-height: 100vh; /* better than height */
+}
+a:hover {
+  background: #7828d9;
+}
+.edu-box {
+  text-align: left;
+  background: #111827;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+
+  border: 2px solid #7c3aed;   /* 🔥 BORDER ADDED */
+  
+  box-shadow: 0 0 15px rgba(124,58,237,0.3);
+}
+.edu-box:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  border-color: #a78bfa;
+}
